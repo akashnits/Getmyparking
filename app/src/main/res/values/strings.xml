@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Getmyparking</string>
+
+    <string-array name="imageSize">
+        <item>100 x 100</item>
+        <item>400 x 400</item>
+        <item>600 x 600</item>
+    </string-array>
+</resources>

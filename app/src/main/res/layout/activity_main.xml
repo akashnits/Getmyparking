@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akash.getmyparking.MainActivity">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="4dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:popupBackground="@color/cardview_light_background"
+            android:spinnerMode="dialog" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvFeed"
+        android:layout_below="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/postFab"
+        style="@style/FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_add"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        android:layout_margin="15dp"
+        app:pressedTranslationZ="12dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+
+</RelativeLayout>
